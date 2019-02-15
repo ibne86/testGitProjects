@@ -90,7 +90,7 @@
       <con:properties/>
       <con:reportParameters/>
     </con:testCase>
-    <con:testCase id="3c1bb305-0b26-4f32-ba4d-b40ae580e3e6" discardOkResults="false" failOnError="true" failTestCaseOnErrors="true" keepSession="false" name="Copy of MultipleRestRequest" searchProperties="true" timeout="0">
+    <con:testCase id="3c1bb305-0b26-4f32-ba4d-b40ae580e3e6" discardOkResults="false" failOnError="true" failTestCaseOnErrors="true" keepSession="false" name="MultipleRestRequest" searchProperties="true" timeout="0">
       <con:settings/>
       <con:savedRecentRuns>1</con:savedRecentRuns>
       <con:testStep type="restrequest" name="Request1" id="e7a645b7-454c-4fe9-8e9a-a6ca60c2a685">
