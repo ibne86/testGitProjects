@@ -37,7 +37,7 @@
       </con:method>
     </con:resource>
   </con:interface>
-  <con:testSuite id="16b84621-08ef-49b8-90bc-9c5aa6f53bb1" name="GitHib_Public">
+  <con:testSuite id="16b84621-08ef-49b8-90bc-9c5aa6f53bb1" name="GitHub_Public">
     <con:settings/>
     <con:savedRecentRuns>1</con:savedRecentRuns>
     <con:runType>SEQUENTIAL</con:runType>
