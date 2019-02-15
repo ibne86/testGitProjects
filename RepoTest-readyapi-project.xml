@@ -7,6 +7,11 @@
     <con:endpoints>
       <con:endpoint>https://petstore.swagger.io</con:endpoint>
     </con:endpoints>
+    <con:environmentSpec>
+      <con:entry environmentId="487684e5-c9ee-4ae4-9116-0a57db3fd6a9">
+        <con:authProfile>Inherit From Parent</con:authProfile>
+      </con:entry>
+    </con:environmentSpec>
     <con:resource name="Pet" path="/v2/pet" id="a7345a7a-497f-4c69-b286-fe4a18d0d43b">
       <con:settings/>
       <con:parameters/>
@@ -33,8 +38,23 @@
           <con:settings/>
           <con:endpoint>https://petstore.swagger.io</con:endpoint>
           <con:parameters/>
+          <con:environmentSpec>
+            <con:entry environmentId="487684e5-c9ee-4ae4-9116-0a57db3fd6a9">
+              <con:authProfile>Inherit From Parent</con:authProfile>
+            </con:entry>
+          </con:environmentSpec>
         </con:request>
+        <con:environmentSpec>
+          <con:entry environmentId="487684e5-c9ee-4ae4-9116-0a57db3fd6a9">
+            <con:authProfile>Inherit From Parent</con:authProfile>
+          </con:entry>
+        </con:environmentSpec>
       </con:method>
+      <con:environmentSpec>
+        <con:entry environmentId="487684e5-c9ee-4ae4-9116-0a57db3fd6a9">
+          <con:authProfile>Inherit From Parent</con:authProfile>
+        </con:entry>
+      </con:environmentSpec>
     </con:resource>
   </con:interface>
   <con:testSuite id="16b84621-08ef-49b8-90bc-9c5aa6f53bb1" name="GitHub_Public">
@@ -84,11 +104,21 @@
             <con:jmsConfig JMSDeliveryMode="PERSISTENT"/>
             <con:jmsPropertyConfig/>
             <con:parameters/>
+            <con:environmentSpec>
+              <con:entry environmentId="487684e5-c9ee-4ae4-9116-0a57db3fd6a9">
+                <con:authProfile>Inherit From Parent</con:authProfile>
+              </con:entry>
+            </con:environmentSpec>
           </con:restRequest>
         </con:config>
       </con:testStep>
       <con:properties/>
       <con:reportParameters/>
+      <con:environmentSpec>
+        <con:entry environmentId="487684e5-c9ee-4ae4-9116-0a57db3fd6a9">
+          <con:authProfile>Inherit From Parent</con:authProfile>
+        </con:entry>
+      </con:environmentSpec>
     </con:testCase>
     <con:testCase id="3c1bb305-0b26-4f32-ba4d-b40ae580e3e6" discardOkResults="false" failOnError="true" failTestCaseOnErrors="true" keepSession="false" name="MultipleRestRequest" searchProperties="true" timeout="0" disabled="true">
       <con:settings/>
@@ -133,6 +163,11 @@
             <con:jmsConfig JMSDeliveryMode="PERSISTENT"/>
             <con:jmsPropertyConfig/>
             <con:parameters/>
+            <con:environmentSpec>
+              <con:entry environmentId="487684e5-c9ee-4ae4-9116-0a57db3fd6a9">
+                <con:authProfile>Inherit From Parent</con:authProfile>
+              </con:entry>
+            </con:environmentSpec>
           </con:restRequest>
         </con:config>
       </con:testStep>
@@ -176,14 +211,29 @@
             <con:jmsConfig JMSDeliveryMode="PERSISTENT"/>
             <con:jmsPropertyConfig/>
             <con:parameters/>
+            <con:environmentSpec>
+              <con:entry environmentId="487684e5-c9ee-4ae4-9116-0a57db3fd6a9">
+                <con:authProfile>Inherit From Parent</con:authProfile>
+              </con:entry>
+            </con:environmentSpec>
           </con:restRequest>
         </con:config>
       </con:testStep>
       <con:properties/>
       <con:reportParameters/>
+      <con:environmentSpec>
+        <con:entry environmentId="487684e5-c9ee-4ae4-9116-0a57db3fd6a9">
+          <con:authProfile>Inherit From Parent</con:authProfile>
+        </con:entry>
+      </con:environmentSpec>
     </con:testCase>
     <con:properties/>
     <con:reportParameters/>
+    <con:environmentSpec>
+      <con:entry environmentId="487684e5-c9ee-4ae4-9116-0a57db3fd6a9">
+        <con:authProfile>Inherit From Parent</con:authProfile>
+      </con:entry>
+    </con:environmentSpec>
   </con:testSuite>
   <con:savedRecentRuns>1</con:savedRecentRuns>
   <con:requirements/>
@@ -230,6 +280,18 @@
 // pw.close()
 // fos.close()</con:script>
   </con:eventHandlers>
+  <con:environment id="487684e5-c9ee-4ae4-9116-0a57db3fd6a9" name="proxy">
+    <con:service type="REST" name="https://petstore.swagger.io">
+      <con:endpoint authProfile="No Authorization" proxyHost="localhost" proxyPort="1111" proxyUsername="" proxyPassword=""/>
+    </con:service>
+    <con:databaseConnectionContainer/>
+    <con:jmsConnectionContainer/>
+  </con:environment>
   <con:authRepository/>
+  <con:environmentSpec>
+    <con:entry environmentId="487684e5-c9ee-4ae4-9116-0a57db3fd6a9">
+      <con:authProfile>No Authorization</con:authProfile>
+    </con:entry>
+  </con:environmentSpec>
   <con:tags/>
 </con:soapui-project>
