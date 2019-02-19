@@ -61,7 +61,7 @@
     <con:settings/>
     <con:savedRecentRuns>1</con:savedRecentRuns>
     <con:runType>SEQUENTIAL</con:runType>
-    <con:testCase id="8e589a27-b950-46aa-ade1-8824c0d60449" discardOkResults="false" failOnError="true" failTestCaseOnErrors="true" keepSession="false" name="Rest-Request" searchProperties="true" timeout="0">
+    <con:testCase id="8e589a27-b950-46aa-ade1-8824c0d60449" discardOkResults="false" failOnError="true" failTestCaseOnErrors="true" keepSession="false" name="Rest-Request_edited" searchProperties="true" timeout="0">
       <con:settings/>
       <con:savedRecentRuns>1</con:savedRecentRuns>
       <con:testStep type="restrequest" name="Request 1" id="4314e06d-4094-4b62-8ba0-8b44c6d14092">
